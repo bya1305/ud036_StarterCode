@@ -1,4 +1,5 @@
 import movie
+import fresh_tomatoes
 
 darkest_hour = movie.Movie("Darkest Hour", "https://ia.media-imdb.com/images/M/MV5BNTU4MjMwOTgyMV5BMl5BanBnXkFtZTgwODQzNjY2NDM@._V1_SX300.jpg", "https://www.youtube.com/watch?v=LtJ60u7SUSw")
 thor_r = movie.Movie("Thor: Ragnarok", "https://ia.media-imdb.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg", "https://www.youtube.com/watch?v=v7MGUNV8MxU")
@@ -9,3 +10,5 @@ dark_knight_rises = movie.Movie("The Dark Knight Rises", "https://ia.media-imdb.
 ready_player_one = movie.Movie("Ready Player One", "https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SY1000_CR0,0,674,1000_AL_.jpg", "https://www.youtube.com/watch?v=cSp1dM2Vj48")
 
 movie_list = [darkest_hour, thor_r, justice_league, skyfall, dark_knight, dark_knight_rises, ready_player_one]
+
+fresh_tomatoes.open_movies_page(movie_list)
